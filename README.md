@@ -1,6 +1,6 @@
 # TODOs
 
-Aplicação para gerenciar tarefas
+Aplicação para gerenciar tarefas.
 
 ## :orange_book: Requisitos
 
@@ -12,16 +12,16 @@ Aplicação para gerenciar tarefas
   4. Marcar um *todo* como feito;
   5. Excluir um *todo*;
 
-  ## :computer: Projeto
+## :computer: Projeto
 
-  ## :memo: Executando o Projeto
+## :memo: Executando o Projeto
 
-  ```bash
-  # Instale as dependências
-  $ yarn
+```bash
+# Instale as dependências
+$ yarn
 
-  # Execute o projeto
-  $ yarn dev
+# Execute o projeto
+$ yarn dev
 
-  # Execute os testes
-  $ yarn test
+# Execute os testes
+$ yarn test
