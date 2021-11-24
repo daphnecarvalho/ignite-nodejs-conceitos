@@ -6,7 +6,7 @@ Aplicação para gerenciar tarefas.
 ### :orange_book: Requisitos
 
 - Criação de um usuário com `name` e `username`
-- CRUD de TODOs
+- CRUD de TODOs para cada usuário
   1. Listar todos os *todos*;
   2. Criar um novo *todo*;
   3. Alterar o `title` e `deadline` de um *todo* existente;
