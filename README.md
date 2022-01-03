@@ -1,11 +1,27 @@
-# TODOs
+# TODOs - Challenge: Node.js Concepts
 
-Aplicação para gerenciar tarefas.
-## :computer: Projeto
+Instructions: [Conceitos do Node.js](https://www.notion.so/Desafio-01-Conceitos-do-Node-js-59ccb235aecd43a6a06bf09a24e7ede8).
 
-### :orange_book: Requisitos
+Application for managing TODOs.
+## Base URL
+http://localhost:3333
 
-- Criação de um usuário com `name` e `username`
+## Routes
+### /users
+
+* [<span style="color:#79c900">POST</span>] /
+
+### /todos
+* [<span style="color:#663399">GET</span>] / (Header: username)
+* [<span style="color:#79c900">POST</span>] / (Header: username)
+* [<span style="color:#ff8c00">PUT</span>] /:id (Header: username)
+* [<span style="color:#ffc000">PATCH</span>] /:id/done (Header: username)
+* [<span style="color:#ff0000">DELETE</span>] /:id
+(Header: username)
+
+## :orange_book: Requirements
+
+- Criação de um usuário com `name` e `username`
 - CRUD de TODOs para cada usuário
   1. Listar todos os *todos*;
   2. Criar um novo *todo*;
@@ -13,13 +29,13 @@ Aplicação para gerenciar tarefas.
   4. Marcar um *todo* como feito;
   5. Excluir um *todo*;
 
-### :straight_ruler: Regras de negócio
+## :straight_ruler: Business rules
 
-#### :ok_woman: Teste de Usuários
+### :ok_woman: Users test
 - [x] Should be able to create a new user
 - [x] Should not be able to create a new user when username already exists
 
-#### :page_facing_up: Teste de _todos_
+### :page_facing_up: _todos_ test
 - [x] Should be able to list all user's todos
 - [x] Should be able to create a new todo
 - [x] Should be able to update a todo
@@ -29,14 +45,30 @@ Aplicação para gerenciar tarefas.
 - [x] Should be able to delete a todo
 - [x] Should not be able to delete a non existing todo
 
-### :memo: Executando o Projeto
+## Tests
+<p>
+Test Suites: 2 total
+</p>
+<p>
+Tests: 10 total
+</p>
+
+## :memo: Project commands
+### Prepare project
 
 ```bash
-# Instale as dependências
-$ yarn
+  # Install dependencies
+  yarn install
+```
+### :computer: Run project
 
-# Execute o projeto
-$ yarn dev
+```bash
+  # Run project
+  yarn dev
+```
+### Run tests
 
-# Execute os testes
-$ yarn test
+```bash
+  # Run tests
+  yarn test
+```
